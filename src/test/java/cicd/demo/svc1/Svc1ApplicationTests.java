@@ -8,6 +8,7 @@ class Svc1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		//
 	}
 
 }
