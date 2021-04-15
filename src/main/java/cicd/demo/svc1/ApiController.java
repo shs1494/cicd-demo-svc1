@@ -14,13 +14,13 @@ public class ApiController {
         String res = "";
 
         if (dataId.equals("data11")) {
-            res = "data11";
+            res = "data111";
         } else if (dataId.equals("data12")) {
-            res = "data12";
+            res = "data112";
         } else if (dataId.equals("data13")) {
-            res = "data13";
+            res = "data113";
         } else if (dataId.equals("data14")) {
-            res = "data14";
+            res = "data114";
         } else if (dataId.startsWith("data2")) {
             res = restTemplate.getForObject("http://demo-svc2/data/" + dataId, String.class, "");
         } else if (dataId.startsWith("data3")) {
